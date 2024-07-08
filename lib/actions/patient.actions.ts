@@ -54,13 +54,13 @@ export const getUser = async (userId: string) => {
 	}
 };
 
+// REGISTER PATIENT
 export const registerPatient = async ({
 	identificationDocument,
 	...patient
 }: RegisterUserParams) => {
 	try {
 		let file;
-
 		if (identificationDocument) {
 			const inputFile = InputFile.fromBuffer(
 				identificationDocument?.get("blobFile") as Blob,
@@ -75,14 +75,16 @@ export const registerPatient = async ({
 			PATIENT_COLLECTION_ID!,
 			ID.unique(),
 			{
-				identificationDocumentId: file?.$id || null,
-				identificationDocumentUrl: `${ENDPOINT}/storage/buckets/${BUCKET_ID}/files/${file?.$id}/view?project=${PROJECT_ID}`,
+				identificationDocumentId: file?.$id ? file.$id : null,
+				identificationDocumentUrl: file?.$id
+					? `${ENDPOINT}/storage/buckets/${BUCKET_ID}/files/${file.$id}/view??project=${PROJECT_ID}`
+					: null,
 				...patient,
 			}
 		);
 
 		return parseStringify(newPatient);
 	} catch (error) {
-		console.log(error);
+		console.error("An error occurred while creating a new patient:", error);
 	}
 };
