@@ -82,7 +82,7 @@ importers:
         version: 7.52.1(react@18.3.1)
       react-phone-number-input:
         specifier: ^3.4.3
-        version: 3.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.4.0
@@ -1084,6 +1084,9 @@ packages:
   '@types/node@20.14.15':
     resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
 
+  '@types/node@20.14.15':
+    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+
   '@types/pg-pool@2.0.4':
     resolution: {integrity: sha512-qZAvkv1K3QbmHHFYSNRYPkRjOWRLBYrL4B9c+wG0GSVGBw0NtJwPcgx/DSddeDJvRGMHCEQ4VMEVfuJ/0gZ3XQ==}
 
@@ -1434,8 +1437,8 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
-  country-flag-icons@1.5.12:
-    resolution: {integrity: sha512-ksBaQqQEFSvSFg1NV8tlAk4IjgDRNMu5ImjnCac0C409CiN6ObTI0vCFaNfaPusxLrr5O9pueT1R3G4XMMwErg==}
+  country-flag-icons@1.5.13:
+    resolution: {integrity: sha512-4JwHNqaKZ19doQoNcBjsoYA+I7NqCH/mC/6f5cBWvdKzcK5TMmzLpq3Z/syVHMHJuDGFwJ+rPpGizvrqJybJow==}
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
@@ -2115,6 +2118,9 @@ packages:
   libphonenumber-js@1.11.4:
     resolution: {integrity: sha512-F/R50HQuWWYcmU/esP5jrH5LiWYaN7DpN0a/99U8+mnGGtnx8kmRE+649dQh3v+CowXXZc8vpkf5AmYkO0AQ7Q==}
 
+  libphonenumber-js@1.11.5:
+    resolution: {integrity: sha512-TwHR5BZxGRODtAfz03szucAkjT5OArXr+94SMtAM2pYXIlQNVMrxvb6uSCbnaJJV6QXEyICk7+l6QPgn72WHhg==}
+
   lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
     engines: {node: '>=10'}
@@ -2512,8 +2518,8 @@ packages:
       react: ^15.5.x || ^16.x || ^17.x || ^18.x
       react-dom: ^15.5.x || ^16.x || ^17.x || ^18.x
 
-  react-phone-number-input@3.4.3:
-    resolution: {integrity: sha512-n0dD9V1T8EWeRoGwVMcNK6bwOdEbIk0U3EQ87K0WTADgyJZUJd9NIQMmpcl9mtWSL+LwPaEMzre0yGkhwZYTzg==}
+  react-phone-number-input@3.4.5:
+    resolution: {integrity: sha512-IlLTG0F/2P+72drqGNiYaguV3KOD4EVxQWGJ7YSofbOb6vyCWWLJqQIQsFFNpfrMrXzYtB3G+aHL9tprGfisFw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -4118,6 +4124,10 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
+  '@types/node@20.14.15':
+    dependencies:
+      undici-types: 5.26.5
+
   '@types/pg-pool@2.0.4':
     dependencies:
       '@types/pg': 8.6.1
@@ -4533,7 +4543,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  country-flag-icons@1.5.12: {}
+  country-flag-icons@1.5.13: {}
 
   cross-spawn@7.0.3:
     dependencies:
@@ -5378,6 +5388,8 @@ snapshots:
 
   libphonenumber-js@1.11.4: {}
 
+  libphonenumber-js@1.11.5: {}
+
   lilconfig@2.1.0: {}
 
   lilconfig@3.1.2: {}
@@ -5741,12 +5753,12 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-phone-number-input@3.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-phone-number-input@3.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       classnames: 2.5.1
-      country-flag-icons: 1.5.12
+      country-flag-icons: 1.5.13
       input-format: 0.3.10
-      libphonenumber-js: 1.11.4
+      libphonenumber-js: 1.11.5
       prop-types: 15.8.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
