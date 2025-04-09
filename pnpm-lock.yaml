@@ -70,7 +70,7 @@ importers:
         version: 19.1.0
       react-datepicker:
         specifier: ^8.0.0
-        version: 8.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 8.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
@@ -244,8 +244,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@floating-ui/react@0.27.3':
-    resolution: {integrity: sha512-CLHnes3ixIFFKVQDdICjel8muhFLOBdQH7fgtHNPY8UbCNqbeKZ262G7K66lGQOUQWWnYocf7ZbUsLJgGfsLHg==}
+  '@floating-ui/react@0.27.6':
+    resolution: {integrity: sha512-9GLOPbW8jTeboR2ar9uMMUDUZjpTLscUvOjNvRw2EgppgoLHLUh/P/OW9evULosnvDjhYf2Gwk/gMOP9KvXD2A==}
     peerDependencies:
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
@@ -2581,8 +2581,8 @@ packages:
   randombytes@2.1.0:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
 
-  react-datepicker@8.0.0:
-    resolution: {integrity: sha512-OmWkFx3BGPXQhBdhFCZyfqR6n2Z5T3WaEXQxz0tdTY6zNntklnIDkaDSYsbKwy7TcyBgeoneG5f4sCwmFPJ4eA==}
+  react-datepicker@8.3.0:
+    resolution: {integrity: sha512-DhfrIJnTPJTUVRtXU7c7zooug40rD6q+Fc8UTCt19dYEotLpDQgTN98MfocY6Rc4S99oOFFEoxyanOM/TKauuw==}
     peerDependencies:
       react: ^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc
       react-dom: ^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc
@@ -3221,7 +3221,7 @@ snapshots:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
-  '@floating-ui/react@0.27.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@floating-ui/react@0.27.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@floating-ui/react-dom': 2.1.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@floating-ui/utils': 0.2.9
@@ -5771,9 +5771,9 @@ snapshots:
     dependencies:
       safe-buffer: 5.2.1
 
-  react-datepicker@8.0.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-datepicker@8.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@floating-ui/react': 0.27.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@floating-ui/react': 0.27.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       clsx: 2.1.1
       date-fns: 4.1.0
       react: 19.1.0
