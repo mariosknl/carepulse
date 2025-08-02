@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hookform/resolvers':
         specifier: ^5.0.0
-        version: 5.2.0(react-hook-form@7.61.1(react@19.1.1))
+        version: 5.2.0(react-hook-form@7.62.0(react@19.1.1))
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.1
         version: 1.1.14(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -79,7 +79,7 @@ importers:
         version: 14.3.8(react@19.1.1)
       react-hook-form:
         specifier: ^7.52.1
-        version: 7.61.1(react@19.1.1)
+        version: 7.62.0(react@19.1.1)
       react-phone-number-input:
         specifier: ^3.4.3
         version: 3.4.12(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -1356,6 +1356,9 @@ packages:
 
   '@types/node@22.16.5':
     resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
+
+  '@types/node@22.17.0':
+    resolution: {integrity: sha512-bbAKTCqX5aNVryi7qXVMi+OkB3w/OyblodicMbvE38blyAz7GxXf6XYhklokijuPwwVg9sDLKRxt0ZHXQwZVfQ==}
 
   '@types/pg-pool@2.0.6':
     resolution: {integrity: sha512-TaAUE5rq2VQYxab5Ts7WZhKNmuN78Q6PiFonTDdpbx8a1H0M1vhy3rhiMjl+e2iHmogyMw7jZF4FrE6eJUy5HQ==}
@@ -2761,8 +2764,8 @@ packages:
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
 
-  react-hook-form@7.61.1:
-    resolution: {integrity: sha512-2vbXUFDYgqEgM2RcXcAT2PwDW/80QARi+PKmHy5q2KhuKvOlG8iIYgf7eIlIANR5trW9fJbP4r5aub3a4egsew==}
+  react-hook-form@7.62.0:
+    resolution: {integrity: sha512-7KWFejc98xqG/F4bAxpL41NB3o1nnvQO1RWZT3TqRZYL8RryQETGfEdVnJN2fy1crCiBLLjkRBVK05j24FxJGA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3415,10 +3418,10 @@ snapshots:
 
   '@floating-ui/utils@0.2.10': {}
 
-  '@hookform/resolvers@5.2.0(react-hook-form@7.61.1(react@19.1.1))':
+  '@hookform/resolvers@5.2.0(react-hook-form@7.62.0(react@19.1.1))':
     dependencies:
       '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.61.1(react@19.1.1)
+      react-hook-form: 7.62.0(react@19.1.1)
 
   '@humanfs/core@0.19.1': {}
 
@@ -4536,6 +4539,10 @@ snapshots:
       '@types/node': 22.16.5
 
   '@types/node@22.16.5':
+    dependencies:
+      undici-types: 6.21.0
+
+  '@types/node@22.17.0':
     dependencies:
       undici-types: 6.21.0
 
@@ -5786,7 +5793,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.16.5
+      '@types/node': 22.17.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -6120,7 +6127,7 @@ snapshots:
       prop-types: 15.8.1
       react: 19.1.1
 
-  react-hook-form@7.61.1(react@19.1.1):
+  react-hook-form@7.62.0(react@19.1.1):
     dependencies:
       react: 19.1.1
 
