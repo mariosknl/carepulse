@@ -63,8 +63,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.6(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       node-appwrite:
-        specifier: ^20.0.0
-        version: 20.3.0
+        specifier: ^21.0.0
+        version: 21.0.0
       react:
         specifier: ^19.0.0
         version: 19.2.0
@@ -2635,6 +2635,7 @@ packages:
   next@16.0.1:
     resolution: {integrity: sha512-e9RLSssZwd35p7/vOa+hoDFggUZIUbZhIUSLZuETCwrCVvxOs87NamoUzT+vbcNAL8Ld9GobBnWOA6SbV/arOw==}
     engines: {node: '>=20.9.0'}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -2653,8 +2654,8 @@ packages:
       sass:
         optional: true
 
-  node-appwrite@20.3.0:
-    resolution: {integrity: sha512-vaxlpkNTtjkccyngwc9HRSwQQasZ/CJri6KMZ62mlDAM1YdvOgqIM8EYJwvhx/fiHdyjfxithFcmnvzUR9TGTQ==}
+  node-appwrite@21.0.0:
+    resolution: {integrity: sha512-n5DzqL6QKIvo6mLXA0fRv1K/YmBdrk9a7DJtCO+YdpVCVq3buFpcgwaYfPYtsdlgfXpdFwD6ejV0bMER3+f1nA==}
 
   node-fetch-native-with-agent@1.7.2:
     resolution: {integrity: sha512-5MaOOCuJEvcckoz7/tjdx1M6OusOY6Xc5f459IaruGStWnKzlI1qpNgaAwmn4LmFYcsSlj+jBMk84wmmRxfk5g==}
@@ -6119,7 +6120,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  node-appwrite@20.3.0:
+  node-appwrite@21.0.0:
     dependencies:
       node-fetch-native-with-agent: 1.7.2
 
