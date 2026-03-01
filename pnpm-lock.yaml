@@ -64,7 +64,7 @@ importers:
         version: 0.4.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       node-appwrite:
         specifier: ^22.0.0
-        version: 22.0.0
+        version: 22.1.2
       react:
         specifier: ^19.0.0
         version: 19.2.4
@@ -1993,8 +1993,8 @@ packages:
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
 
-  enhanced-resolve@5.19.0:
-    resolution: {integrity: sha512-phv3E1Xl4tQOShqSte26C7Fl84EwUdZsyOuSSk9qtAGyyQs2s3jJzComh+Abf4g187lUUAvH+H26omrqia2aGg==}
+  enhanced-resolve@5.20.0:
+    resolution: {integrity: sha512-/ce7+jQ1PQ6rVXwe+jKEg5hW5ciicHwIQUagZkp6IufBoY3YDgdTTY1azVs0qoRgVmvsNB+rbjLJxDAeHHtwsQ==}
     engines: {node: '>=10.13.0'}
 
   es-abstract@1.24.0:
@@ -2693,8 +2693,8 @@ packages:
       sass:
         optional: true
 
-  node-appwrite@22.0.0:
-    resolution: {integrity: sha512-Oelqm44JUhHN1A7FfJMFXspVc1lUE+gDrGda98BNjkNkBqp3H/jM79nbjYqVx/gbW3zgSiUPPvPfAANY3Wlzeg==}
+  node-appwrite@22.1.2:
+    resolution: {integrity: sha512-iK30EBV+/rkU2jbHR+i2BK+7axlxjuF/G7X290jGwOc7Wa/qkkK67icgU4M+XJgCUsInha4ZeH0dWs7Gw0RT9A==}
 
   node-fetch-native-with-agent@1.7.2:
     resolution: {integrity: sha512-5MaOOCuJEvcckoz7/tjdx1M6OusOY6Xc5f459IaruGStWnKzlI1qpNgaAwmn4LmFYcsSlj+jBMk84wmmRxfk5g==}
@@ -5296,7 +5296,7 @@ snapshots:
 
   emoji-regex@9.2.2: {}
 
-  enhanced-resolve@5.19.0:
+  enhanced-resolve@5.20.0:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.0
@@ -6130,7 +6130,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  node-appwrite@22.0.0:
+  node-appwrite@22.1.2:
     dependencies:
       json-bigint: 1.0.0
       node-fetch-native-with-agent: 1.7.2
@@ -6861,7 +6861,7 @@ snapshots:
       acorn-import-phases: 1.0.4(acorn@8.16.0)
       browserslist: 4.28.1
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.19.0
+      enhanced-resolve: 5.20.0
       es-module-lexer: 1.7.0
       eslint-scope: 5.1.1
       events: 3.3.0
