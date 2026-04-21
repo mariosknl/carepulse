@@ -88,7 +88,7 @@ importers:
         version: 3.5.0
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.2.2)
+        version: 1.0.7(tailwindcss@4.2.4)
       zod:
         specifier: ^4.0.0
         version: 4.3.6
@@ -113,7 +113,7 @@ importers:
         version: 8.5.10
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.2.2
+        version: 4.2.4
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -3036,11 +3036,11 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  tailwindcss@4.2.2:
-    resolution: {integrity: sha512-KWBIxs1Xb6NoLdMVqhbhgwZf2PGBpPEiwOqgI4pFIYbNTfBXiKYyWoTsXgBQ9WFg/OlhnvHaY+AEpW7wSmFo2Q==}
+  tailwindcss@4.2.4:
+    resolution: {integrity: sha512-HhKppgO81FQof5m6TEnuBWCZGgfRAWbaeOaGT00KOy/Pf/j6oUihdvBpA7ltCeAvZpFhW3j0PTclkxsd4IXYDA==}
 
-  tapable@2.3.2:
-    resolution: {integrity: sha512-1MOpMXuhGzGL5TTCZFItxCc0AARf1EZFQkGqMm7ERKj8+Hgr5oLvJOVFcC+lRmR8hCe2S3jC4T5D7Vg/d7/fhA==}
+  tapable@2.3.3:
+    resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
     engines: {node: '>=6'}
 
   terser-webpack-plugin@5.4.0:
@@ -5108,7 +5108,7 @@ snapshots:
   enhanced-resolve@5.20.1:
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.3.2
+      tapable: 2.3.3
 
   es-abstract@1.24.2:
     dependencies:
@@ -5223,7 +5223,7 @@ snapshots:
       eslint: 10.2.0
       eslint-import-resolver-node: 0.3.10
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint@10.2.0))(eslint@10.2.0)
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint@10.2.0))(eslint@10.2.0))(eslint@10.2.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@10.2.0)
       eslint-plugin-react: 7.37.5(eslint@10.2.0)
       eslint-plugin-react-hooks: 7.1.0(eslint@10.2.0)
@@ -5256,7 +5256,7 @@ snapshots:
       tinyglobby: 0.2.16
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint@10.2.0))(eslint@10.2.0))(eslint@10.2.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -5271,7 +5271,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint@10.2.0))(eslint@10.2.0))(eslint@10.2.0):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.58.2(eslint@10.2.0)(typescript@6.0.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -6408,13 +6408,13 @@ snapshots:
 
   tailwind-merge@3.5.0: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.2.2):
+  tailwindcss-animate@1.0.7(tailwindcss@4.2.4):
     dependencies:
-      tailwindcss: 4.2.2
+      tailwindcss: 4.2.4
 
-  tailwindcss@4.2.2: {}
+  tailwindcss@4.2.4: {}
 
-  tapable@2.3.2: {}
+  tapable@2.3.3: {}
 
   terser-webpack-plugin@5.4.0(webpack@5.106.2):
     dependencies:
@@ -6596,7 +6596,7 @@ snapshots:
       mime-db: 1.54.0
       neo-async: 2.6.2
       schema-utils: 4.3.3
-      tapable: 2.3.2
+      tapable: 2.3.3
       terser-webpack-plugin: 5.4.0(webpack@5.106.2)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
