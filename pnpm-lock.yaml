@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@hookform/resolvers':
         specifier: ^5.0.0
-        version: 5.2.2(react-hook-form@7.75.0(react@19.2.5))
+        version: 5.2.2(react-hook-form@7.81.0(react@19.2.5))
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.1
         version: 1.1.15(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -79,7 +79,7 @@ importers:
         version: 15.0.0(react@19.2.5)
       react-hook-form:
         specifier: ^7.52.1
-        version: 7.75.0(react@19.2.5)
+        version: 7.81.0(react@19.2.5)
       react-phone-number-input:
         specifier: ^3.4.3
         version: 3.4.16(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -2899,8 +2899,8 @@ packages:
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
 
-  react-hook-form@7.75.0:
-    resolution: {integrity: sha512-Ovv94H+0p3sJ7B9B5QxPuCP1u8V/cHuVGyH55cSwodYDtoJwK+fqk3vjfIgSX59I2U/bU4z0nRJ9HMLpNiWEmw==}
+  react-hook-form@7.81.0:
+    resolution: {integrity: sha512-ocbmr2p5KBMoAfj4WCUvped33lVi1Kd5DuDUvQDnB6VEAacOjPI/jMbtDdbhco4y9ct4xUuCmMY0b/C9L0QHjw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3652,10 +3652,10 @@ snapshots:
 
   '@floating-ui/utils@0.2.11': {}
 
-  '@hookform/resolvers@5.2.2(react-hook-form@7.75.0(react@19.2.5))':
+  '@hookform/resolvers@5.2.2(react-hook-form@7.81.0(react@19.2.5))':
     dependencies:
       '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.75.0(react@19.2.5)
+      react-hook-form: 7.81.0(react@19.2.5)
 
   '@humanfs/core@0.19.2':
     dependencies:
@@ -6007,7 +6007,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.13.1
+      '@types/node': 24.13.2
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -6322,7 +6322,7 @@ snapshots:
       prop-types: 15.8.1
       react: 19.2.5
 
-  react-hook-form@7.75.0(react@19.2.5):
+  react-hook-form@7.81.0(react@19.2.5):
     dependencies:
       react: 19.2.5
 
