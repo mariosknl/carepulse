@@ -63,8 +63,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.6(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       node-appwrite:
-        specifier: ^27.0.0
-        version: 27.1.0
+        specifier: ^28.0.0
+        version: 28.0.0
       react:
         specifier: ^19.0.0
         version: 19.2.8
@@ -2714,8 +2714,8 @@ packages:
       sass:
         optional: true
 
-  node-appwrite@27.1.0:
-    resolution: {integrity: sha512-YUxhpqAcTryaO7jSo6CKBqTpBD3U7bPhEGjzoEWX5kSZGHnkQ0s3iJn5dUfJ4xID+afH4/j+8bU3Cacs5gbjXw==}
+  node-appwrite@28.0.0:
+    resolution: {integrity: sha512-3pLMannNwZf1WUJYdZ998B/ckgAkUGI+Wis31GEwy2NJlx0PooghXe6U3ZJvH86oFaLGl+evnjFWcaQJXu+PZg==}
 
   node-exports-info@1.6.0:
     resolution: {integrity: sha512-pyFS63ptit/P5WqUkt+UUfe+4oevH+bFeIiPPdfb0pFeYEu/1ELnJu5l+5EcTKYL5M7zaAa7S8ddywgXypqKCw==}
@@ -5914,7 +5914,7 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  node-appwrite@27.1.0:
+  node-appwrite@28.0.0:
     dependencies:
       json-bigint: 1.0.0
       undici: 6.28.0
