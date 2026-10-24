@@ -1,14 +1,19 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:recommended"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "rebaseWhen": "conflicted",
   "packageRules": [
     {
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "description": "Wait for Dependency Dashboard approval before opening major updates",
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ],
   "timezone": "Europe/Athens",

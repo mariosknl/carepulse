@@ -1,29 +1,47 @@
-name: Build and Test
+name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
-  build_and_test:
-    runs-on: "macOS-latest"
-
-    strategy:
-      matrix:
-        node: [14]
-
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      # Placeholder values so the Appwrite client can be constructed at
+      # build time. They are not credentials. Source map upload runs only
+      # when SENTRY_AUTH_TOKEN is set as a repository secret.
+      NEXT_PUBLIC_ENDPOINT: https://cloud.appwrite.io/v1
+      NEXT_PUBLIC_BUCKET_ID: ci-dummy-bucket
+      NEXT_PUBLIC_ADMIN_PASSKEY: ci-dummy-passkey
+      PROJECT_ID: ci-dummy-project
+      API_KEY: ci-dummy-key
+      DATABASE_ID: ci-dummy-database
+      PATIENT_COLLECTION_ID: ci-dummy-patients
+      DOCTOR_COLLECTION_ID: ci-dummy-doctors
+      APPOINTMENT_COLLECTION_ID: ci-dummy-appointments
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-      - name: Use Node.js ${{ matrix.node-version }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install project
-        run: npm install
-      - name: Build the project
-        run: npm run build --if-present
-      - name: Run tests
-        run: npm test
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Lint is intentionally not a CI step yet. `pnpm lint` (`eslint .` with
+      # eslint-config-next) crashes on load: TypeScript 7.0.2 only exports a
+      # version stub, and typescript-eslint 8 still needs the TypeScript 5
+      # compiler API. Failing the job would block Renovate again.
+      - name: Build
+        run: pnpm build

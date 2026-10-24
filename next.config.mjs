@@ -4,9 +4,6 @@ const nextConfig = {
 	typescript: {
 		ignoreBuildErrors: true,
 	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
 };
 
 export default withSentryConfig(nextConfig, {
@@ -18,6 +15,13 @@ export default withSentryConfig(nextConfig, {
 
 	// Only print logs for uploading source maps in CI
 	silent: !process.env.CI,
+
+	// Skip the release and source map upload unless a real token is present.
+	// A missing token must not fail CI; @sentry/nextjs only warns and continues,
+	// and pnpm does not build @sentry/cli unless its install script is approved.
+	sourcemaps: {
+		disable: !process.env.SENTRY_AUTH_TOKEN,
+	},
 
 	// For all available options, see:
 	// https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
