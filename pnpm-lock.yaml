@@ -76,7 +76,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       react-dropzone:
         specifier: ^20.0.0
-        version: 20.2.0(@types/react@19.2.18)(react@19.2.8)
+        version: 20.2.1(@types/react@19.2.18)(react@19.2.8)
       react-hook-form:
         specifier: ^7.52.1
         version: 7.92.0(@types/react@19.2.18)(react@19.2.8)
@@ -2383,8 +2383,8 @@ packages:
   file-entry-cache@11.1.5:
     resolution: {integrity: sha512-+PFTHITI08JIGhnNpGNI8T8inUpgZfk3GNEqfT9R2zZV2iFXg3CvqzSl/uEhs7TSGujYRELEANyDvS8Fj7+S7Q==}
 
-  file-selector@5.0.2:
-    resolution: {integrity: sha512-1hAy178VaMCWWj/vSUITOTpLWH1PoGW3eO7i3kPIppuSyOHBm3o1cHq+CvKAM5hQKQXlazrDt/3K1HCXgs7MpQ==}
+  file-selector@5.0.3:
+    resolution: {integrity: sha512-d15nlW+KKq82TlItRvCHtJ8NXCX0nwz2SEUR1MOT8W50c5q2se551ZFdhITFrWohl/5wbRPfMMF9jq4Oj1xRGQ==}
     engines: {node: '>= 22'}
 
   fill-range@7.1.1:
@@ -3082,8 +3082,8 @@ packages:
     peerDependencies:
       react: ^19.2.8
 
-  react-dropzone@20.2.0:
-    resolution: {integrity: sha512-FRlcSp6UFT9Etg57U4+g6O6qF/jH7sUh2Hz67lQlrZJa/3FjfAFvw7DwDSItiG2vBUXTdh2wroEwXPPg7o/jkg==}
+  react-dropzone@20.2.1:
+    resolution: {integrity: sha512-8ldzI42a+iz6jlC5t0HoOO5ce65dU8ZGo8ZpesL2E57JByC8LBUieMrkGj97YYfgMaYKwkhpkfYxKOCKAekywA==}
     engines: {node: '>= 22'}
     peerDependencies:
       '@types/react': '*'
@@ -5789,7 +5789,7 @@ snapshots:
     dependencies:
       flat-cache: 6.1.23
 
-  file-selector@5.0.2: {}
+  file-selector@5.0.3: {}
 
   fill-range@7.1.1:
     dependencies:
@@ -6446,10 +6446,10 @@ snapshots:
       react: 19.2.8
       scheduler: 0.27.0
 
-  react-dropzone@20.2.0(@types/react@19.2.18)(react@19.2.8):
+  react-dropzone@20.2.1(@types/react@19.2.18)(react@19.2.8):
     dependencies:
       attr-accept: 4.0.1
-      file-selector: 5.0.2
+      file-selector: 5.0.3
       react: 19.2.8
     optionalDependencies:
       '@types/react': 19.2.18
